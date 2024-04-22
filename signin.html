@@ -1,0 +1,63 @@
+<!-- Not for Commercial Use  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="  style/index.css">
+    <link rel="stylesheet" href="  style/sign.css">
+    <link rel="shortcut icon" href="  images/logo.jpg" type="image/x-icon">
+    <title>Account sign in: Maharaja Food and Beverages</title>
+</head>
+
+<body>
+
+    <!-- header starts here  -->
+    <header>
+        <div class="logo">
+            <div>
+                <img class="logo-img" src="  images/logo.jpg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <div class="sign">
+        <h1>Sign in</h1>
+        <div class="container">
+            <span>*indicates required fields</span>
+
+            <form action="/" method="post">
+                <div class="input-field">
+                    <label for="username" class="label">
+                        *Username or email address
+                    </label>
+                    <input type="text" name="username" class="input-text">
+                </div>
+                <div class="input-field">
+                    <label for="password" class="label">
+                        *Password
+                    </label>
+                    <input type="password" name="username" id="password" class="input-text">
+                    <img class="icon" id="pass" src="  images/eye-solid.svg" alt="">
+                    <img class="icon" id="text" src="  images/eye-slash-solid.svg" alt="">
+                </div>
+
+                <div class="check">
+                    <input type="checkbox" class="checkbox" name="keep">
+                    <label for="keep">Keep me signed in. <a href="#">Details</a></label>
+                </div>
+
+                <a href="#">Forgot your username?</a>
+                <a href="#">Forgot your password?</a>
+
+                <button type="submit">Sign in </button>
+            </form>
+        </div>
+    </div>
+    <script src="  js/sign.js"></script>
+
+</body>
+
+</html>

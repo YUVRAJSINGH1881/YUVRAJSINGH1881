@@ -1,0 +1,25 @@
+.sign h1 {
+    margin-bottom: 15px;
+}
+
+.desc,
+.desc h4 {
+    color: gray;
+}
+
+.desc {
+    margin-bottom: 10px;
+}
+
+form h3 {
+    color: rgba(0, 0, 0, 0.808);
+    margin-bottom: 25px;
+}
+
+.box {
+    margin-bottom: 60px;
+}
+
+.check {
+    padding-top: 20px;
+}

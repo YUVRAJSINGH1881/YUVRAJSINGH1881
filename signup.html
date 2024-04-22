@@ -1,0 +1,75 @@
+<!-- Not for Commercial Use  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="  style/index.css">
+    <link rel="stylesheet" href="  style/sign.css">
+    <link rel="stylesheet" href="  style/signup.css">
+    <link rel="shortcut icon" href="  images/logo.jpg" type="image/x-icon">
+    <title>Account sign in: Maharaja Food and Beverages</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <div>
+                <img class="logo-img" src="  images/logo.jpg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <div class="sign">
+        <h1>Create an account</h1>
+        <div class="container">
+            <span>*indicates required fields</span>
+
+            <form action="/" method="post">
+
+                <h3>Personal Information</h3>
+                <div class="box">
+                    <div class="input-field">
+                        <label for="firstname" class="label">
+                            *First Name
+                        </label>
+                        <input type="text" name="firstname" class="input-text">
+                    </div>
+                    <div class="input-field">
+                        <label for="lastname" class="label">
+                            *Last Name
+                        </label>
+                        <input type="text" name="lastname" class="input-text">
+                    </div>
+                </div>
+
+                <h3>Account Security</h3>
+                <div class="box">
+                    <div class="input-field">
+                        <label for="username" class="label">
+                            *Username or email address
+                        </label>
+                        <input type="text" name="username" class="input-text">
+                    </div>
+                    <div class="input-field">
+                        <label for="password" class="label">
+                            *Password
+                        </label>
+                        <input type="password" name="username" id="password" class="input-text">
+                        <img class="icon" id="pass" src="  images/eye-solid.svg" alt="">
+                        <img class="icon" id="text" src="  images/eye-slash-solid.svg" alt="">
+                    </div>
+
+                </div>
+                <button type="submit">Create account </button>
+            </form>
+        </div>
+    </div>
+    <script src="  js/sign.js"></script>
+
+</body>
+
+</html>
